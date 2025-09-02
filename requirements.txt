@@ -1,4 +1,17 @@
-numpy==1.21.2
-pip==21.2.4
-setuptools==58.0.4
-wheel==0.37.0
+# Original Python simulator dependencies
+numpy>=1.21.2
+pip>=21.2.4
+setuptools>=58.0.4
+wheel>=0.37.0
+
+# New NS-3.42 analysis dependencies
+pandas>=1.3.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+pathlib2>=2.3.0
+scipy>=1.7.0
+
+# Optional dependencies for enhanced analysis
+plotly>=5.0.0
+dash>=2.0.0
+jupyter>=1.0.0
