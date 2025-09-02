@@ -127,3 +127,59 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# NS-3 specific files
+build/
+.lock-ns3*
+.waf*
+
+# Virtual environments (project specific)
+Norel_env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Simulation results (can be large)
+results/session_*/
+*.txt
+*.pcap
+*.tr
+
+# Analysis output
+figures/
+*.png
+*.pdf
+*.svg
+comprehensive_report.md
+
+# Temporary files
+/tmp/
+*.tmp
+*.bak
+
+# Compiled files
+*.o
+*.a
+*.dylib
+
+# Large data files
+*.csv
+*.json
+*.xml
+
+# Keep important result summaries but ignore detailed logs
+!results/README.md
+!results/*/summary/
